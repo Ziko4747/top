@@ -10,9 +10,9 @@ public class Student {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private long id ;
-    private String familia ;
-    private String imia ;
-    private int baga ;
+    private String familia;
+    private String imia;
+    private int baga;
 
 
     public Student(String familia, String imia, int baga) {
